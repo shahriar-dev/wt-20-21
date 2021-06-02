@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <!-- 
+        Meta (used by browsers and search engines)
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="Md. Shahriar Abir">
+    <title>HTML Details</title>
+    <style>
+        #heading1 {
+            color: red;
+            color: rgb(255, 0, 222);
+        }
+    </style>
+    <!--
+        Link (To connect an external resource)
+    -->
+    <link rel="stylesheet" type="text/css" href="html-detail-style.css">
+
+    <!-- Script (Javascript) -->
+    <script>
+        function changeText() {
+            document.getElementById("heading1").innerHTML="HTML Details";
+        }
+    </script>
+
+    <!-- base (there can be either href or target, only one base tag in a html document) -->
+    <base href="/">
+</head>
+<body>
+    <h1 id="heading1">HTML Basic</h1>
+    <button onclick="changeText()">Click Me!</button>
+    <a href="AIUB_whole_logo.png">Show Image</a>
+    <br><br>
+    
+
+    <!-- Block Element vs Inline Element -->
+    <div>Block Element 1</div>
+    <div>Block Element 2</div>
+    <div>Block ELement 3</div>
+    
+    <br><br>
+
+    <span>Inline Element 1</span>
+    <span>Inline Element 2</span>
+    <span>Inline Element 3</span>
+
+    <br><br>
+    <!-- More inline elements (<a>, <em>, <select>, <textarea>, <span>, <img>, <map>, <button>, <i>, <strong>, <b>, ....... etc.)-->
+
+    <!-- Inline element can not contain block element -->
+
+    <!-- Hyperlink -->
+    <a href="https://www.aiub.edu" target="_blank"><img src="AIUB_whole_logo.png" style="height: 50px; width: 50px;" ; alt="AIUB logo"></a>
+
+    <table>
+        <tr>
+            <th>Sl#</th>
+            <th>Id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>19-39293-1</td>
+        </tr>
+    </table>
+</body>
+</html>
